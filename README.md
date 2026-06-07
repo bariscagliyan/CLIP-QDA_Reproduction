@@ -42,8 +42,8 @@ faithfulness to the data.
 ## 2. What we reproduced
 
 
-| # | Target | Scope |
-|---|--------|-------|
+| # | Target | 
+|---|--------|
 | 1 | Core pipeline: image -> CLIP concept scores -> concept-score table -> QDA 
 | 2 | Table 2, one cell: CLIP-QDA accuracy on MonuMAI (paper = 0.89) 
 | 3 | The same pipeline applied to Cats/Dogs/Cars 

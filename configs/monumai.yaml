@@ -1,0 +1,28 @@
+# Configuration for the MonuMAI reproduction (Table 2, CLIP-QDA = 0.89).
+dataset: monumai
+
+# CLIP backbone. ViT-L/14@336px is the model used in the paper.
+clip_model: "ViT-L/14@336px"
+
+score_scale: 100.0
+
+prompt_template: "{concept}"
+
+batch_size: 32
+
+seed: 42
+
+# QDA regularisation (sklearn QuadraticDiscriminantAnalysis.reg_param).
+reg_param: 1.0e-4
+# Sweep evaluated by script 02 (results reported for all of these).
+reg_param_sweep: [0.0, 1.0e-4, 1.0e-3, 1.0e-2]
+
+test_size: 0.2
+
+data_root: null
+
+# Output locations.
+scores_csv: "results/concept_scores/monumai_scores.csv"
+results_csv: "results/table2_monumai_reproduction.csv"
+results_json: "results/table2_monumai_reproduction.json"
+model_path: "results/monumai_qda.joblib"

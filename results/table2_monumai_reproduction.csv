@@ -1,0 +1,5 @@
+reg_param,n_train,n_test,train_accuracy,test_accuracy,dataset,clip_model,split_origin,is_default_reg,paper_accuracy,delta_vs_paper
+0.0,1212,302,0.8721122112211221,0.8509933774834437,monumai,ViT-L/14@336px,n/a,False,0.89,-0.039
+0.0001,1212,302,0.8721122112211221,0.8509933774834437,monumai,ViT-L/14@336px,n/a,True,0.89,-0.039
+0.001,1212,302,0.8729372937293729,0.8509933774834437,monumai,ViT-L/14@336px,n/a,False,0.89,-0.039
+0.01,1212,302,0.8712871287128713,0.8543046357615894,monumai,ViT-L/14@336px,n/a,False,0.89,-0.0357

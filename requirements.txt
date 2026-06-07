@@ -1,0 +1,23 @@
+# Python 3.10 recommended.
+torch
+torchvision
+
+# OpenAI CLIP (imported as `clip`) and its dependencies.
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+
+# Classifier / data / utilities.
+scikit-learn
+pandas
+numpy
+tqdm
+datasets
+pillow
+matplotlib
+pyyaml
+joblib
+
+# Explainability.
+lime
+shap

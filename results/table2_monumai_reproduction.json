@@ -1,0 +1,69 @@
+{
+  "sweep": [
+    {
+      "reg_param": 0.0,
+      "n_train": 1212,
+      "n_test": 302,
+      "train_accuracy": 0.8721122112211221,
+      "test_accuracy": 0.8509933774834437,
+      "dataset": "monumai",
+      "clip_model": "ViT-L/14@336px",
+      "split_origin": "n/a",
+      "is_default_reg": false,
+      "paper_accuracy": 0.89,
+      "delta_vs_paper": -0.039
+    },
+    {
+      "reg_param": 0.0001,
+      "n_train": 1212,
+      "n_test": 302,
+      "train_accuracy": 0.8721122112211221,
+      "test_accuracy": 0.8509933774834437,
+      "dataset": "monumai",
+      "clip_model": "ViT-L/14@336px",
+      "split_origin": "n/a",
+      "is_default_reg": true,
+      "paper_accuracy": 0.89,
+      "delta_vs_paper": -0.039
+    },
+    {
+      "reg_param": 0.001,
+      "n_train": 1212,
+      "n_test": 302,
+      "train_accuracy": 0.8729372937293729,
+      "test_accuracy": 0.8509933774834437,
+      "dataset": "monumai",
+      "clip_model": "ViT-L/14@336px",
+      "split_origin": "n/a",
+      "is_default_reg": false,
+      "paper_accuracy": 0.89,
+      "delta_vs_paper": -0.039
+    },
+    {
+      "reg_param": 0.01,
+      "n_train": 1212,
+      "n_test": 302,
+      "train_accuracy": 0.8712871287128713,
+      "test_accuracy": 0.8543046357615894,
+      "dataset": "monumai",
+      "clip_model": "ViT-L/14@336px",
+      "split_origin": "n/a",
+      "is_default_reg": false,
+      "paper_accuracy": 0.89,
+      "delta_vs_paper": -0.0357
+    }
+  ],
+  "best": {
+    "reg_param": 0.01,
+    "n_train": 1212,
+    "n_test": 302,
+    "train_accuracy": 0.8712871287128713,
+    "test_accuracy": 0.8543046357615894,
+    "dataset": "monumai",
+    "clip_model": "ViT-L/14@336px",
+    "split_origin": "n/a",
+    "is_default_reg": false,
+    "paper_accuracy": 0.89,
+    "delta_vs_paper": -0.0357
+  }
+}

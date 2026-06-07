@@ -1,0 +1,25 @@
+# Configuration for the Cats/Dogs/Cars secondary experiments.
+dataset: cats_dogs_cars
+
+# Hugging Face dataset id.
+hf_dataset: "ENSTA-U2IS/Cats_Dogs_Cars"
+
+clip_model: "ViT-L/14@336px"
+score_scale: 100.0
+prompt_template: "{concept}"
+batch_size: 32
+seed: 42
+
+reg_param: 1.0e-4
+reg_param_sweep: [0.0, 1.0e-4, 1.0e-3, 1.0e-2]
+
+test_size: 0.2
+
+# Optionally subsample the dataset for a quick run (null = use everything).
+max_samples: null
+
+scores_csv: "results/concept_scores/cats_dogs_cars_scores.csv"
+results_csv: "results/cats_dogs_cars_accuracy.csv"
+results_json: "results/cats_dogs_cars_accuracy.json"
+model_path: "results/cats_dogs_cars_qda.joblib"
+xai_dir: "results/xai_cats_dogs_cars"

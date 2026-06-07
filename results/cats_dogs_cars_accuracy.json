@@ -1,0 +1,59 @@
+{
+  "sweep": [
+    {
+      "reg_param": 0.0,
+      "n_train": 5149,
+      "n_test": 1287,
+      "train_accuracy": 0.9966983880365119,
+      "test_accuracy": 0.9984459984459985,
+      "dataset": "cats_dogs_cars",
+      "clip_model": "ViT-L/14@336px",
+      "split_origin": "n/a",
+      "is_default_reg": false
+    },
+    {
+      "reg_param": 0.0001,
+      "n_train": 5149,
+      "n_test": 1287,
+      "train_accuracy": 0.9966983880365119,
+      "test_accuracy": 0.9984459984459985,
+      "dataset": "cats_dogs_cars",
+      "clip_model": "ViT-L/14@336px",
+      "split_origin": "n/a",
+      "is_default_reg": true
+    },
+    {
+      "reg_param": 0.001,
+      "n_train": 5149,
+      "n_test": 1287,
+      "train_accuracy": 0.9966983880365119,
+      "test_accuracy": 0.9984459984459985,
+      "dataset": "cats_dogs_cars",
+      "clip_model": "ViT-L/14@336px",
+      "split_origin": "n/a",
+      "is_default_reg": false
+    },
+    {
+      "reg_param": 0.01,
+      "n_train": 5149,
+      "n_test": 1287,
+      "train_accuracy": 0.9966983880365119,
+      "test_accuracy": 0.9984459984459985,
+      "dataset": "cats_dogs_cars",
+      "clip_model": "ViT-L/14@336px",
+      "split_origin": "n/a",
+      "is_default_reg": false
+    }
+  ],
+  "best": {
+    "reg_param": 0.0,
+    "n_train": 5149,
+    "n_test": 1287,
+    "train_accuracy": 0.9966983880365119,
+    "test_accuracy": 0.9984459984459985,
+    "dataset": "cats_dogs_cars",
+    "clip_model": "ViT-L/14@336px",
+    "split_origin": "n/a",
+    "is_default_reg": false
+  }
+}

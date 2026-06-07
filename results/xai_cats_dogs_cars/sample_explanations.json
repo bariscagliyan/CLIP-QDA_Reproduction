@@ -1,0 +1,348 @@
+{
+  "samples": [
+    {
+      "image_id": "cdc_8743",
+      "true_label": "Dog",
+      "pred_label": "Dog",
+      "clip_qda_local": [
+        {
+          "concept": "Headlights",
+          "sign": "-",
+          "epsilon": -10.535848275569716,
+          "epsilon_scaled": -6.038620560283529,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "White",
+          "sign": "+",
+          "epsilon": 24.65592320799375,
+          "epsilon_scaled": 7.948871776560976,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "Black",
+          "sign": "+",
+          "epsilon": 35.347720498455274,
+          "epsilon_scaled": 10.457055825806304,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "Slitted-eyed",
+          "sign": "+",
+          "epsilon": 22.40267866889198,
+          "epsilon_scaled": 14.399348270840447,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "White",
+          "sign": "-",
+          "epsilon": -48.92751286192447,
+          "epsilon_scaled": -15.773837499598612,
+          "target_class": "Cat"
+        }
+      ],
+      "clip_lime_top5": [
+        [
+          "Four-legged > 18.65",
+          0.23300764058986626
+        ],
+        [
+          "Tail-wagging > 17.88",
+          0.1591718422388216
+        ],
+        [
+          "Floppy-eared > 18.73",
+          0.12414570426362849
+        ],
+        [
+          "Wagging-tailed > 19.01",
+          0.1010786807920232
+        ],
+        [
+          "Snout > 16.38",
+          -0.08318688716661879
+        ]
+      ],
+      "clip_shap_top5": [
+        [
+          "Four-legged",
+          0.19862678118982763
+        ],
+        [
+          "Whiskered",
+          0.13303004082545178
+        ],
+        [
+          "Wagging-tailed",
+          0.07713169203345467
+        ],
+        [
+          "Tail-wagging",
+          0.06295623984292796
+        ],
+        [
+          "Floppy-eared",
+          0.04612472550086913
+        ]
+      ]
+    },
+    {
+      "image_id": "cdc_11779",
+      "true_label": "Dog",
+      "pred_label": "Dog",
+      "clip_qda_local": [
+        {
+          "concept": "Whiskered",
+          "sign": "+",
+          "epsilon": 4.63181890055442,
+          "epsilon_scaled": 3.0997386833729252,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "Four-legged",
+          "sign": "-",
+          "epsilon": -7.372960714640819,
+          "epsilon_scaled": -4.738287467517255,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "White",
+          "sign": "+",
+          "epsilon": 15.80398065192563,
+          "epsilon_scaled": 5.095076534010237,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "Black",
+          "sign": "+",
+          "epsilon": 19.949931409484414,
+          "epsilon_scaled": 5.901867037765616,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "Headlights",
+          "sign": "-",
+          "epsilon": -10.950919347557882,
+          "epsilon_scaled": -6.276518510569941,
+          "target_class": "Cat"
+        }
+      ],
+      "clip_lime_top5": [
+        [
+          "Four-wheeled <= 11.43",
+          0.2245382487728962
+        ],
+        [
+          "Metallic <= 10.82",
+          0.1191744296768437
+        ],
+        [
+          "16.86 < Four-legged <= 18.65",
+          0.11003263502510628
+        ],
+        [
+          "License plate <= 9.53",
+          0.1066021617587836
+        ],
+        [
+          "White <= 10.59",
+          0.06478353278801278
+        ]
+      ],
+      "clip_shap_top5": [
+        [
+          "Whiskered",
+          0.3090182147547599
+        ],
+        [
+          "Four-legged",
+          0.059358445722902234
+        ],
+        [
+          "Furry",
+          0.05559936557992455
+        ],
+        [
+          "Four-wheeled",
+          0.04937173354511915
+        ],
+        [
+          "Tail-wagging",
+          0.038614380151227576
+        ]
+      ]
+    },
+    {
+      "image_id": "cdc_6466",
+      "true_label": "Cat",
+      "pred_label": "Cat",
+      "clip_qda_local": [
+        {
+          "concept": "Snout",
+          "sign": "+",
+          "epsilon": 6.767435348770498,
+          "epsilon_scaled": 3.696505042333237,
+          "target_class": "Car"
+        },
+        {
+          "concept": "Snout-nosed",
+          "sign": "+",
+          "epsilon": 6.48852603184478,
+          "epsilon_scaled": 3.758945637928803,
+          "target_class": "Car"
+        },
+        {
+          "concept": "Snout",
+          "sign": "-",
+          "epsilon": -7.034675700182416,
+          "epsilon_scaled": -3.84247692911137,
+          "target_class": "Car"
+        },
+        {
+          "concept": "Whiskered",
+          "sign": "-",
+          "epsilon": -7.226931502578716,
+          "epsilon_scaled": -4.696888905064205,
+          "target_class": "Car"
+        },
+        {
+          "concept": "Snout-nosed",
+          "sign": "-",
+          "epsilon": -8.188337615461068,
+          "epsilon_scaled": -4.743683821327702,
+          "target_class": "Car"
+        }
+      ],
+      "clip_lime_top5": [
+        [
+          "Slitted-eyed > 16.46",
+          0.08487377141587496
+        ],
+        [
+          "Pointy-eared > 17.69",
+          0.055332188920632616
+        ],
+        [
+          "13.73 < Snout-nosed <= 15.39",
+          0.048870501100044476
+        ],
+        [
+          "15.03 < Whiskered <= 17.52",
+          0.03934026554434804
+        ],
+        [
+          "15.02 < Furry <= 16.69",
+          0.0381580996671521
+        ]
+      ],
+      "clip_shap_top5": [
+        [
+          "Whiskered",
+          0.14969913103634927
+        ],
+        [
+          "Snout-nosed",
+          0.08845493067858644
+        ],
+        [
+          "Pointy-eared",
+          0.0683054883582733
+        ],
+        [
+          "Four-legged",
+          0.05480229209860432
+        ],
+        [
+          "Floppy-eared",
+          0.04195920360264453
+        ]
+      ]
+    },
+    {
+      "image_id": "cdc_506",
+      "true_label": "Dog",
+      "pred_label": "Dog",
+      "clip_qda_local": [
+        {
+          "concept": "White",
+          "sign": "+",
+          "epsilon": 20.957402985263354,
+          "epsilon_scaled": 6.756498537664363,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "Headlights",
+          "sign": "-",
+          "epsilon": -11.963926438563307,
+          "epsilon_scaled": -6.857123440278611,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "Black",
+          "sign": "+",
+          "epsilon": 34.21651742999961,
+          "epsilon_scaled": 10.12240755230077,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "Black",
+          "sign": "-",
+          "epsilon": -41.506752667200494,
+          "epsilon_scaled": -12.279106648696573,
+          "target_class": "Cat"
+        },
+        {
+          "concept": "White",
+          "sign": "-",
+          "epsilon": -43.29688264007988,
+          "epsilon_scaled": -13.958567502320193,
+          "target_class": "Cat"
+        }
+      ],
+      "clip_lime_top5": [
+        [
+          "Four-legged > 18.65",
+          0.22445579858520345
+        ],
+        [
+          "11.43 < Four-wheeled <= 12.84",
+          0.1783729689667448
+        ],
+        [
+          "Tail-wagging > 17.88",
+          0.14881419021362174
+        ],
+        [
+          "Floppy-eared > 18.73",
+          0.11925146410907143
+        ],
+        [
+          "14.79 < Snout <= 16.38",
+          0.10651902157270665
+        ]
+      ],
+      "clip_shap_top5": [
+        [
+          "Whiskered",
+          0.14278669444390663
+        ],
+        [
+          "Four-legged",
+          0.13367341176261768
+        ],
+        [
+          "Floppy-eared",
+          0.12145271203596987
+        ],
+        [
+          "Wagging-tailed",
+          0.0532980670137241
+        ],
+        [
+          "Snout-nosed",
+          0.047434886344110486
+        ]
+      ]
+    }
+  ]
+}

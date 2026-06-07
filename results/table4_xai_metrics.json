@@ -1,0 +1,57 @@
+{
+  "deletion": {
+    "local": {
+      "del_set1": 0.9785,
+      "del_set2": 0.9761,
+      "inference_time_s": 11.22,
+      "n_test": 2576
+    },
+    "lime": {
+      "del_set1": 0.9754,
+      "del_set2": 0.8643,
+      "inference_time_s": 40.62,
+      "n_test": 2576
+    },
+    "shap": {
+      "del_set1": 0.9785,
+      "del_set2": 0.8467,
+      "inference_time_s": 34.75,
+      "n_test": 2576
+    }
+  },
+  "detection": {
+    "local": 0.0935,
+    "lime": 0.3759,
+    "shap": 0.3705
+  },
+  "table": [
+    {
+      "method": "CLIP-QDA_local",
+      "del_random_order": 0.9785,
+      "del_method_order": 0.9761,
+      "det_ours": 0.0935,
+      "det_paper": 0.2724,
+      "inference_time_s": 11.22,
+      "n_test": 2576
+    },
+    {
+      "method": "CLIP-LIME",
+      "del_random_order": 0.9754,
+      "del_method_order": 0.8643,
+      "det_ours": 0.3759,
+      "det_paper": 0.4042,
+      "inference_time_s": 40.62,
+      "n_test": 2576
+    },
+    {
+      "method": "CLIP-SHAP",
+      "del_random_order": 0.9785,
+      "del_method_order": 0.8467,
+      "det_ours": 0.3705,
+      "det_paper": 0.3696,
+      "inference_time_s": 34.75,
+      "n_test": 2576
+    }
+  ],
+  "note": "Det is computed per the paper's protocol: averaged over the 6 biased binary tasks (Black X + White Y, X!=Y) with ground-truth Ss={Black, White}, checking whether the bias concepts appear in the top-2. Del is an internal sanity check only (method order vs random order); it is NOT comparable to the paper's Del Set 1 / Set 2, which are two concept vocabularies (real vs random words), not orderings."
+}
